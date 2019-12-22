@@ -1,8 +1,9 @@
 
 def reverse_each_word(arguement)
-  na = []
-  na << arguement.split
-
+  new_array = []
+  new_array << arguement.split
+new_array.collect {|word| 
+#{word}.reverse }
 end
  
   
