@@ -1,4 +1,4 @@
-sentence="Hello, there and how are you?"
+
 def reverse_each_word(sentence)
   new_array = []
 
@@ -6,3 +6,10 @@ def reverse_each_word(sentence)
  
  new_array.join(" ")
 end
+=======
+sentence = "hello"
+
+def reverse_each_word(sentence)
+puts i
+ 
+  
