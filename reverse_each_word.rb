@@ -1,6 +1,8 @@
 
 def reverse_each_word(arguement)
-  arguement.reverse!
+  na = []
+  na << arguement.split
+  na.reverse!
 end
  
   
