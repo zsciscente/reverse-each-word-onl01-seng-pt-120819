@@ -4,7 +4,7 @@ def reverse_each_word(arguement)
   naa = []
   na << arguement.split
   na.each {|word| naa << #{word}.reverse }
-  return naa
+  puts naa
 end
  
   
